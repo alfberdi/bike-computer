@@ -1,5 +1,6 @@
 #include <avr/io.h>
 #include <avr/interrupt.h>
+#include <avr/sleep.h>
 /*
  * Define the variables:
  * -km counter
@@ -24,7 +25,7 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  sleep(1000)
+  //sleep(1000);
 }
 
 void km_ISR () {
